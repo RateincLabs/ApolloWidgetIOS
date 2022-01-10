@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApolloWidget-Swift.h</key>
 		<data>
-		bZvBApwNSLrDwX6CjO0LeA9rYuo=
+		Yzl8y4UX7AxWJz7jWeRpkEDI9GY=
 		</data>
 		<key>Headers/ApolloWidget.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+izZlj+lMCXhII8bcE8z+lXKiq0=
+		Yo8VM1ysDpPqfYrLW3XQCz8waxg=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GwxNogL1Thh257fDf3WE3i8T3qM=
+		6pPfQvLm16v4sbCAIaWzISoZPBk=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+izZlj+lMCXhII8bcE8z+lXKiq0=
+		Yo8VM1ysDpPqfYrLW3XQCz8waxg=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GwxNogL1Thh257fDf3WE3i8T3qM=
+		6pPfQvLm16v4sbCAIaWzISoZPBk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBUfKOA7rn/RztRhvR5Z7XEihQy0DbaN+HWTEseP8EU=
+			NSKCLaS3moMhxMD0oocDPu6YH92ivfBVr3VVB8P9nUo=
 			</data>
 		</dict>
 		<key>Headers/ApolloWidget.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJ5Arml1FkTc8N/ArneKzMz1qPg/ByeHzLD7v4qs3e0=
+			qvKXxwmRyCxj/ruq0GxRegFO2O5R8ctF9rzYLJmtwBM=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AQCCe94+nAS7wjaWjBq3z7SKCg3WHy6rJGhiEjOrigQ=
+			thtfduzTJzT8yvKVV7lOH4dJZ8DuAyKehlJDAxshNCM=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJ5Arml1FkTc8N/ArneKzMz1qPg/ByeHzLD7v4qs3e0=
+			qvKXxwmRyCxj/ruq0GxRegFO2O5R8ctF9rzYLJmtwBM=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AQCCe94+nAS7wjaWjBq3z7SKCg3WHy6rJGhiEjOrigQ=
+			thtfduzTJzT8yvKVV7lOH4dJZ8DuAyKehlJDAxshNCM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
