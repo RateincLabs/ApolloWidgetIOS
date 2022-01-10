@@ -6,8 +6,12 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ApolloWidgetController : UIKit.UIViewController, WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+import os.log
+import os
+public class ApolloWidget {
+  public init(controller: UIKit.UIViewController, surveyID: Swift.String)
+  public func addExtras(key: Swift.String, value: Swift.String)
+  public func removeExtras(key: Swift.String)
+  public func run()
   @objc deinit
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApolloWidget-Swift.h</key>
 		<data>
-		vSjsFoYsVG5Hf+jrfSikKV3NYs4=
+		fUSDnE5ZT2cayYA/45Ojibiq8e8=
 		</data>
 		<key>Headers/ApolloWidget.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		edBUjKrkw89ryV5/p+BaZ9SrGVw=
+		i6y+u6b/GwWjOEf5w+0JnhDSdEw=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9TEkC2AH7S8RNKPgLpMhlMU+Ezg=
+		sSq7JJFiL0rjr5fSFpRDYnq3bAY=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		edBUjKrkw89ryV5/p+BaZ9SrGVw=
+		i6y+u6b/GwWjOEf5w+0JnhDSdEw=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		9TEkC2AH7S8RNKPgLpMhlMU+Ezg=
+		sSq7JJFiL0rjr5fSFpRDYnq3bAY=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BSMSNN3kKQFxYaJjmA4njI5s30U=
+		JY47BnwWlJFc1+Da4dYbpCh/HOc=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2n32eiG1i/mSTmfBXuQkMlqhLGw=
+		/J9x9fuPmW06SaXcmV20YF7+0GM=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		BSMSNN3kKQFxYaJjmA4njI5s30U=
+		JY47BnwWlJFc1+Da4dYbpCh/HOc=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		2n32eiG1i/mSTmfBXuQkMlqhLGw=
+		/J9x9fuPmW06SaXcmV20YF7+0GM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rEzAZEUj4tekxPmgX+dzrv6WmEB1BlVE5QP9wtnMPBM=
+			aoXHUjWuQZxloTFmiK3qWwRrqhsfm8XumB4ayxnGjck=
 			</data>
 		</dict>
 		<key>Headers/ApolloWidget.h</key>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LDGYa4968pckjhQUO1JzlRQ9xYxI6fD8ncQYNQ83T8=
+			4NygsWoMOdVvli3iqKfaDl7jNDPWAvG0p3ZdPYAm5Ik=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7Y64+x6jc/uZj4Cg3N3KfVUYdoEKAPsVBx7soGC7hc=
+			wGEz1PiuTo45VismGYhiT4A+TbA/sufWzbZi+Mo4yaM=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LDGYa4968pckjhQUO1JzlRQ9xYxI6fD8ncQYNQ83T8=
+			4NygsWoMOdVvli3iqKfaDl7jNDPWAvG0p3ZdPYAm5Ik=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7Y64+x6jc/uZj4Cg3N3KfVUYdoEKAPsVBx7soGC7hc=
+			wGEz1PiuTo45VismGYhiT4A+TbA/sufWzbZi+Mo4yaM=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIYQXCLKLgOS311LiX8pmyVk2q4LtL1UaXyeiVFaBy4=
+			ohpFcUcbseCmTjmpaQTFXiyB9Bc/ewOlP26szpopNTU=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E3n+ydNZJAv9iIG+yI5tvXBaMefzkJq0SU51MNwYk+w=
+			wgmzl4pifXxeUK2PyiY51711GOORiu7P96WG6ZrLjtI=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIYQXCLKLgOS311LiX8pmyVk2q4LtL1UaXyeiVFaBy4=
+			ohpFcUcbseCmTjmpaQTFXiyB9Bc/ewOlP26szpopNTU=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E3n+ydNZJAv9iIG+yI5tvXBaMefzkJq0SU51MNwYk+w=
+			wgmzl4pifXxeUK2PyiY51711GOORiu7P96WG6ZrLjtI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
