@@ -8,7 +8,7 @@ import WebKit
 import _Concurrency
 import os.log
 import os
-public class ApolloWidget {
+public class ApolloWidgetSetup {
   public init(controller: UIKit.UIViewController, surveyID: Swift.String)
   public func addExtras(key: Swift.String, value: Swift.String)
   public func removeExtras(key: Swift.String)
