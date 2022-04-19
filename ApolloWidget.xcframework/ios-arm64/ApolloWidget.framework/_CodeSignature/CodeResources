@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApolloWidget-Swift.h</key>
 		<data>
-		Yzl8y4UX7AxWJz7jWeRpkEDI9GY=
+		6Mw0rD7WcCM8iIPnPS2PVI89knI=
 		</data>
 		<key>Headers/ApolloWidget.h</key>
 		<data>
@@ -14,31 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A1i+bFXgg86qd/LMmM8R3ds3aK4=
+		Dm4eiCVWR3vKv3KwZafASrsyg/g=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		SLhNPk4S9KaNqV6cYv0wgBzGXIA=
+		3M6LZpuilJVUzZ7i9Mm4Cp/C/LY=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Yo8VM1ysDpPqfYrLW3XQCz8waxg=
+		0fg+E0kgfdqYSFV56x0IUiLfdxI=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6pPfQvLm16v4sbCAIaWzISoZPBk=
-		</data>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		SLhNPk4S9KaNqV6cYv0wgBzGXIA=
-		</data>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		Yo8VM1ysDpPqfYrLW3XQCz8waxg=
-		</data>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		6pPfQvLm16v4sbCAIaWzISoZPBk=
+		M7pt4XGArumpcWviguMrazvuyKU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSKCLaS3moMhxMD0oocDPu6YH92ivfBVr3VVB8P9nUo=
+			2zIqLe7fwP9SxMBnheRNciQ40C20+5rSbBXPOeh3Hrc=
 			</data>
 		</dict>
 		<key>Headers/ApolloWidget.h</key>
@@ -65,42 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kT+DxBp4GSAeyik4VwUikXo3CryRiEgLaFMN4hpfuhg=
+			SHglBWdHHrl7D6xPif/zD2wrxrzGHB+swIt/nuIqok8=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvKXxwmRyCxj/ruq0GxRegFO2O5R8ctF9rzYLJmtwBM=
+			wFz6U++chSl3oV170qkZMHT8JEDMl3ZOjOgllSVjAtE=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			thtfduzTJzT8yvKVV7lOH4dJZ8DuAyKehlJDAxshNCM=
-			</data>
-		</dict>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kT+DxBp4GSAeyik4VwUikXo3CryRiEgLaFMN4hpfuhg=
-			</data>
-		</dict>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qvKXxwmRyCxj/ruq0GxRegFO2O5R8ctF9rzYLJmtwBM=
-			</data>
-		</dict>
-		<key>Modules/ApolloWidget.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			thtfduzTJzT8yvKVV7lOH4dJZ8DuAyKehlJDAxshNCM=
+			cc0cwFkIuhFoR+F0VmNXPLFalnKq6ObQTNJBRCy5pXE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
