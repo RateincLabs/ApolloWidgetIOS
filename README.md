@@ -10,7 +10,7 @@ target 'example' do
 
     use_frameworks!
 
-    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.1.0' # el pod principal
+    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.1.8' # el pod principal
     pod 'UIDrawer', :git => 'https://github.com/pckz/UIDrawer.git', :tag => '1.0' # es requisito de ApolloWidget para desplegar en versiones iOS < 15
 
 end
