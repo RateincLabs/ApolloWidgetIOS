@@ -10,7 +10,7 @@ target 'example' do
 
     use_frameworks!
 
-    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.1.0' # el pod principal
+    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.1.8' # el pod principal
     pod 'UIDrawer', :git => 'https://github.com/pckz/UIDrawer.git', :tag => '1.0' # es requisito de ApolloWidget para desplegar en versiones iOS < 15
 
 end
@@ -30,9 +30,10 @@ Ambos import son necesarios
 La clase Apollo cuenta con dos inputs:
 * controller: controlador que invoca a la encuesta
 * surveyID: Identificador de la encuesta
+* apolloDelegate: Necesario para el uso de protocols
 
 ```swift
-let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=")
+let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
 ```
 
 Para agregar Extras se debe utilizar el metodo addExtras:
@@ -67,12 +68,19 @@ import UIKit
 import ApolloWidget // el pod principal
 import UIDrawer // es necesario para desplegar en versiones iOS < 15
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ApolloWidgetProtocol {
+    func apolloSurveyHasBeenClosedUsingTheButton(status: Int, message: String) {
+        // code
+    }
+
+    func apolloSurveyHasBeenAnswered(status: Int, message: String) {
+        // code
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=")
+        let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
         
         apolloTest.addExtras(key: "session_client_id", value: "test100")
         
