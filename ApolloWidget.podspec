@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name = 'ApolloWidget'
-    s.version = '0.1.8'
+    s.version = '0.1.9'
     s.summary = 'ApolloWidget IOS SDK'
     s.homepage = 'https://www.rateinc.cl/'
 
