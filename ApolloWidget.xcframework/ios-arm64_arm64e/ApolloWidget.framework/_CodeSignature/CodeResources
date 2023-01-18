@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApolloWidget-Swift.h</key>
 		<data>
-		sdMKpVfpUo/f6hTunz7BZD60+Pg=
+		+RsbVm8LzfZjrYAKVvd6yx2T8KE=
 		</data>
 		<key>Headers/ApolloWidget.h</key>
 		<data>
@@ -14,27 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MitJbvRYN4dX36B4mrhEpdMdw50=
+		WlASTAY/iABiUFrtwFXbY1P3Mvk=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		IDu+ury5XeAogth5YaC5YC5rq/E=
+		R0gPq2Y2VYZlXl2lHOTfr9+Qkus=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+nAUUXjmJRg+0QiUOv4+DlYWSRo=
+		WfTkkq1Asih2ktD0SOJ2TtfSPbk=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		FGiWw7kCpwEAq7EtNHdCWTcJSzU=
+		GfNj/rjJ6P5SfRWljLovUVYk1XQ=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+nAUUXjmJRg+0QiUOv4+DlYWSRo=
+		WfTkkq1Asih2ktD0SOJ2TtfSPbk=
 		</data>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lN5nf+dAjOSasGN/MgDN5M9846o=
+		jZEhN1fDi35jm4n/TerJsz/9nmA=
+		</data>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.abi.json</key>
+		<data>
+		R0gPq2Y2VYZlXl2lHOTfr9+Qkus=
+		</data>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.private.swiftinterface</key>
+		<data>
+		dPPnLaUoisiuvf4XSQoobmMv7RY=
+		</data>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftdoc</key>
+		<data>
+		+yykPqeFhCJ3YHh6lZQ4okOVEmU=
+		</data>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftinterface</key>
+		<data>
+		dPPnLaUoisiuvf4XSQoobmMv7RY=
+		</data>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftmodule</key>
+		<data>
+		hoyq1Ttd2wWUjfoa9p6cpeRXOUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			haqJf6UH9SrmxjHN19UO742n+nDJc3yw7a0QypWLlK8=
+			yFe003O9J8Aew713ctOUAs7KPilfBkx4YY7lJzxlbfE=
 			</data>
 		</dict>
 		<key>Headers/ApolloWidget.h</key>
@@ -61,35 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H51/MiKlv3TMWYgTyQ2LVCmTf9/gEHBg07bkdCDJJnI=
+			ti3gF8OgjpITHtbhy+aAJsXijwbrXRp5KS8qGD0PRo8=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lt3VX0wFvPebisaI7xGO2S65FvMQIZdm1ULHlt0k7OA=
+			YHfN/GqHz93taGx0ikMs2DGSCJvXdsP/vhpyUJj2KsQ=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ythdqkJgTL9r3tCRuBm7SJfL95GOWwjW7EWhGpDfPvk=
+			w8ZWaSfFklEMXn1ATY7f+ZBk5L94FwJ4/get9WuCQ8Y=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lt3VX0wFvPebisaI7xGO2S65FvMQIZdm1ULHlt0k7OA=
+			YHfN/GqHz93taGx0ikMs2DGSCJvXdsP/vhpyUJj2KsQ=
 			</data>
 		</dict>
 		<key>Modules/ApolloWidget.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIBiwsEY1AvOhY9Ij4LzwgEKxe99AQyqlP6P2zDugT4=
+			vlVPtOI/eyBKvbSAW2oxs4+UUn4Cl2u6BR5MIPFY5Cs=
+			</data>
+		</dict>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ti3gF8OgjpITHtbhy+aAJsXijwbrXRp5KS8qGD0PRo8=
+			</data>
+		</dict>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j6Ydo5mN6HOzLINJBaVfli6i5B5DxgKXNnuBXL2yIko=
+			</data>
+		</dict>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3P4fEcJRM2oIHh1aWCNL4rzn8sUkBUCPJ5OqVEh/ams=
+			</data>
+		</dict>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j6Ydo5mN6HOzLINJBaVfli6i5B5DxgKXNnuBXL2yIko=
+			</data>
+		</dict>
+		<key>Modules/ApolloWidget.swiftmodule/arm64e-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OEVHpv4KqOsm3l8jBWBXh69xYdCpn1QWld0r4scUMDs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
