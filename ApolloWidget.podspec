@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name = 'ApolloWidget'
-    s.version = '0.3.0'
+    s.version = '0.3.1'
     s.summary = 'ApolloWidget IOS SDK'
     s.homepage = 'https://www.rateinc.cl/'
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     s.platform = :ios
-    s.source = { :git => 'https://github.com/RateincLabs/ApolloWidgetIOS.git', :tag => '0.3.0' }
+    s.source = { :git => 'https://github.com/RateincLabs/ApolloWidgetIOS.git', :tag => '0.3.1' }
     s.ios.deployment_target = '12.0'
     s.ios.vendored_frameworks = 'ApolloWidget.xcframework'
 end
