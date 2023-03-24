@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target x86_64-apple-ios15.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApolloWidget
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ApolloWidget
 @_exported import ApolloWidget
 import Swift
 import UIKit
@@ -12,6 +12,7 @@ public protocol ApolloWidgetProtocol : ObjectiveC.NSObjectProtocol {
   func apolloSurveyHasBeenAnswered(status: Swift.Int, message: Swift.String)
   func apolloSurveyHasBeenClosedUsingTheButton(status: Swift.Int, message: Swift.String)
   func apolloSurveyHasbeenDismissed(status: Swift.Int, message: Swift.String)
+  func apolloSurveyHasBeenWarned(status: Swift.Int, message: Swift.String)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ApolloWidgetSetup : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public init(controller: UIKit.UIViewController, surveyID: Swift.String, apolloDelegate: ApolloWidget.ApolloWidgetProtocol)
