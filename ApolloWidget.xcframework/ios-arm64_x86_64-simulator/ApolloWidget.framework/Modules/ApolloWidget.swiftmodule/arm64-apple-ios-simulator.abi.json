@@ -88,72 +88,6 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "apolloSurveyHasbeenDismissed",
-            "printedName": "apolloSurveyHasbeenDismissed(status:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ApolloWidget0aB8ProtocolP28apolloSurveyHasbeenDismissed6status7messageySi_SStF",
-            "mangledName": "$s12ApolloWidget0aB8ProtocolP28apolloSurveyHasbeenDismissed6status7messageySi_SStF",
-            "moduleName": "ApolloWidget",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApolloWidget.ApolloWidgetProtocol>",
-            "sugared_genericSig": "<Self where Self : ApolloWidget.ApolloWidgetProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "apolloSurveyHasBeenWarned",
-            "printedName": "apolloSurveyHasBeenWarned(status:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ApolloWidget0aB8ProtocolP25apolloSurveyHasBeenWarned6status7messageySi_SStF",
-            "mangledName": "$s12ApolloWidget0aB8ProtocolP25apolloSurveyHasBeenWarned6status7messageySi_SStF",
-            "moduleName": "ApolloWidget",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApolloWidget.ApolloWidgetProtocol>",
-            "sugared_genericSig": "<Self where Self : ApolloWidget.ApolloWidgetProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -213,28 +147,6 @@
           },
           {
             "kind": "Function",
-            "name": "getApolloWidgetControllerInstance",
-            "printedName": "getApolloWidgetControllerInstance()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ApolloWidgetController",
-                "printedName": "ApolloWidget.ApolloWidgetController",
-                "usr": "c:@M@ApolloWidget@objc(cs)ApolloWidgetController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ApolloWidget0aB5SetupC03getaB18ControllerInstanceAA0abE0CyF",
-            "mangledName": "$s12ApolloWidget0aB5SetupC03getaB18ControllerInstanceAA0abE0CyF",
-            "moduleName": "ApolloWidget",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "addExtras",
             "printedName": "addExtras(key:value:)",
             "children": [
@@ -259,47 +171,6 @@
             "declKind": "Func",
             "usr": "s:12ApolloWidget0aB5SetupC9addExtras3key5valueySS_SStF",
             "mangledName": "$s12ApolloWidget0aB5SetupC9addExtras3key5valueySS_SStF",
-            "moduleName": "ApolloWidget",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addExtrasArray",
-            "printedName": "addExtrasArray(e:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ApolloWidget0aB5SetupC14addExtrasArray1eySDyS2SG_tF",
-            "mangledName": "$s12ApolloWidget0aB5SetupC14addExtrasArray1eySDyS2SG_tF",
             "moduleName": "ApolloWidget",
             "declAttributes": [
               "Custom",
@@ -553,38 +424,6 @@
               "Custom",
               "AccessControl",
               "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidDisappear",
-            "printedName": "viewDidDisappear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApolloWidget@objc(cs)ApolloWidgetController(im)viewDidDisappear:",
-            "mangledName": "$s12ApolloWidget0aB10ControllerC16viewDidDisappearyySbF",
-            "moduleName": "ApolloWidget",
-            "overriding": true,
-            "objc_name": "viewDidDisappear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -909,14 +748,14 @@
     {
       "filePath": "\/Users\/danielsegovia\/Documents\/xcode-projects\/ApolloWidgetIOS-source\/ApolloWidget\/ApolloWidgetSetup.swift",
       "kind": "StringLiteral",
-      "offset": 513,
+      "offset": 381,
       "length": 19,
       "value": "\"ApolloWidgetSetup\""
     },
     {
       "filePath": "\/Users\/danielsegovia\/Documents\/xcode-projects\/ApolloWidgetIOS-source\/ApolloWidget\/ApolloWidgetSetup.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 328,
       "length": 17,
       "value": "\"ApolloWidget.ApolloWidgetSetup\""
     },
