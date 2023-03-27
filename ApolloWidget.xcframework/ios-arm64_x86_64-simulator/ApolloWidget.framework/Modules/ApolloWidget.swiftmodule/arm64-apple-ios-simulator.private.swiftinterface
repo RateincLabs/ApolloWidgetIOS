@@ -14,7 +14,6 @@ public protocol ApolloWidgetProtocol : ObjectiveC.NSObjectProtocol {
   func apolloSurveyHasBeenAnswered(status: Swift.Int, message: Swift.String)
   func apolloSurveyHasBeenClosedUsingTheButton(status: Swift.Int, message: Swift.String)
   func apolloSurveyHasbeenDismissed(status: Swift.Int, message: Swift.String)
-  func apolloSurveyHasBeenWarned(status: Swift.Int, message: Swift.String)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ApolloWidgetSetup : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public init(controller: UIKit.UIViewController, surveyID: Swift.String, apolloDelegate: ApolloWidget.ApolloWidgetProtocol)

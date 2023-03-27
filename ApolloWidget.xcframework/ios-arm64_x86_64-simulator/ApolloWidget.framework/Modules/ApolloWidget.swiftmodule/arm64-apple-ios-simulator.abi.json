@@ -121,39 +121,6 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "apolloSurveyHasBeenWarned",
-            "printedName": "apolloSurveyHasBeenWarned(status:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ApolloWidget0aB8ProtocolP25apolloSurveyHasBeenWarned6status7messageySi_SStF",
-            "mangledName": "$s12ApolloWidget0aB8ProtocolP25apolloSurveyHasBeenWarned6status7messageySi_SStF",
-            "moduleName": "ApolloWidget",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApolloWidget.ApolloWidgetProtocol>",
-            "sugared_genericSig": "<Self where Self : ApolloWidget.ApolloWidgetProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -909,14 +876,14 @@
     {
       "filePath": "\/Users\/danielsegovia\/Documents\/xcode-projects\/ApolloWidgetIOS-source\/ApolloWidget\/ApolloWidgetSetup.swift",
       "kind": "StringLiteral",
-      "offset": 513,
+      "offset": 516,
       "length": 19,
       "value": "\"ApolloWidgetSetup\""
     },
     {
       "filePath": "\/Users\/danielsegovia\/Documents\/xcode-projects\/ApolloWidgetIOS-source\/ApolloWidget\/ApolloWidgetSetup.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 463,
       "length": 17,
       "value": "\"ApolloWidget.ApolloWidgetSetup\""
     },
