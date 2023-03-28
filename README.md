@@ -10,7 +10,7 @@ target 'example' do
 
     use_frameworks!
 
-    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.1.8' # el pod principal
+    pod 'ApolloWidget', :git => 'https://github.com/RateincLabs/ApolloWidgetIOS', :tag => '0.4.4-prod' # el pod principal
     pod 'UIDrawer', :git => 'https://github.com/pckz/UIDrawer.git', :tag => '1.0' # es requisito de ApolloWidget para desplegar en versiones iOS < 15
 
 end
@@ -27,7 +27,7 @@ Ambos import son necesarios
 
 ## Uso de la clase Apollo
 ---
-La clase Apollo cuenta con dos inputs:
+La clase Apollo cuenta con tres inputs:
 * controller: controlador que invoca a la encuesta
 * surveyID: Identificador de la encuesta
 * apolloDelegate: Necesario para el uso de protocols
@@ -36,10 +36,27 @@ La clase Apollo cuenta con dos inputs:
 let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
 ```
 
-Para agregar Extras se debe utilizar el metodo addExtras:
+Para agregar Extras existen dos formas:
 
 ```swift
-apolloTest.addExtras(key: "session_client_id", value: "test100")
+// Add extras individually
+apolloTest.addExtras(key: "session_client_id", value: "id_de_cliente")
+apolloTest.addExtras(key: "o_1025", value: "Banco Demo")
+apolloTest.addExtras(key: "o_1104", value: "khipu")
+apolloTest.addExtras(key: "o_1103", value: "iOS")
+apolloTest.addExtras(key: "o_1011", value: "999")
+
+// Add extras with populated array [string:string]
+let extrasArray: [String: String] = [
+    "session_client_id": "id_de_cliente",
+    "o_1025":"Banco Demo",
+    "o_1104": "khipu",
+    "o_1103": "iOS",
+    "o_1011": "999",
+    "o_777": "daniel.s"
+];
+
+apolloTest.addExtrasArray(e: extrasArray)
 ```
 
 Para iniciar la encuesta se debe utilizar el metodo run:
@@ -59,6 +76,17 @@ extension ViewController: UIViewControllerTransitioningDelegate {
 }
 ```
 
+extra:
+
+Para realizar configuraciones más avanzadas del widget, es posible acceder al controller y realizar ajustes usando el método getApolloWidgetControllerInstance()
+
+```swift
+let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YxxWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
+
+apolloTest.getApolloWidgetControllerInstance().presentationController?.delegate = self
+
+```
+
 &nbsp;
 ## App ejemplo de inicialización
 ---
@@ -69,21 +97,49 @@ import ApolloWidget // el pod principal
 import UIDrawer // es necesario para desplegar en versiones iOS < 15
 
 class ViewController: UIViewController, ApolloWidgetProtocol {
-    func apolloSurveyHasBeenClosedUsingTheButton(status: Int, message: String) {
+    func apolloSurveyHasBeenWarned(status: Int, message: String) {
         // code
     }
-
+    
+    func apolloSurveyHasbeenDismissed(status: Int, message: String) {
+        // code
+    }
+    
     func apolloSurveyHasBeenAnswered(status: Int, message: String) {
+        // code
+    }
+    
+    func apolloSurveyHasBeenClosedUsingTheButton(status: Int, message: String) {
         // code
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
+        let apolloTest = ApolloWidgetSetup(controller: self, surveyID: "YxxWxjby9wcmltZXJhLXBydWViYS1wdWJsaWNhLWRlbC13aWRnZXQ=", apolloDelegate: self)
         
-        apolloTest.addExtras(key: "session_client_id", value: "test100")
-        
+        // Add extras individually
+        apolloTest.addExtras(key: "session_client_id", value: "id_de_cliente")
+        apolloTest.addExtras(key: "o_1025", value: "Banco Demo")
+        apolloTest.addExtras(key: "o_1104", value: "khipu")
+        apolloTest.addExtras(key: "o_1103", value: "iOS")
+        apolloTest.addExtras(key: "o_1011", value: "999")
+
+        // Add extras with populated array [string:string]
+        let extrasArray: [String: String] = [
+            "session_client_id": "id_de_cliente",
+            "o_1025":"Banco Demo",
+            "o_1104": "khipu",
+            "o_1103": "iOS",
+            "o_1011": "999",
+            "o_777": "daniel.s"
+        ];
+
+        apolloTest.addExtrasArray(e: extrasArray)
+
+        // Access to apolloWidgetController for advanced configurations
+        apolloTest.getApolloWidgetControllerInstance().presentationController?.delegate = self
+
         apolloTest.run()
     }
 
