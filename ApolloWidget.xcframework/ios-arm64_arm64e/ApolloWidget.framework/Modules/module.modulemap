@@ -6,6 +6,6 @@ framework module ApolloWidget {
 }
 
 module ApolloWidget.Swift {
-  header "ApolloWidget-Swift.h"
-  requires objc
+    header "ApolloWidget-Swift.h"
+    requires objc
 }
